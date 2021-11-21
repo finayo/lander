@@ -1,0 +1,61 @@
+.showroomList:nth-child(odd) {
+    border: 1px solid #f2f2f2;
+    background: #e9a259;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;  
+}
+
+.showroomList:nth-child(even) {
+    border: 1px solid #f2f2f2;
+    background: #d78722;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;  
+}
+.showroomList h5 {
+    font-size: 14px;
+}
+ .empCount {
+    border-radius: 229px;
+    background: #337ab7;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.card {
+    
+    box-shadow: 0 2px 4px 0 rgb(185 185 185 / 50%);
+    -webkit-box-shadow: 0 2px 4px 0 rgb(185 185 185 / 50%);
+    -moz-box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
+    -ms-box-shadow: 0 2px 4px 0 rgba(185, 185, 185, 0.5);
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 25px;
+}
+.sale-diffrence-border:after {
+    content: '';
+    height: 5px;
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.background-blue:after {
+    background-color: #464dee;
+}
+.background-red:after {
+    background-color: #ff0000;
+}
+.background-green:after {
+    background-color: #23a70e;
+}
+.background-mustard:after {
+    background-color: #f39004;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border:none !important;
+    border-bottom: 2px solid #ddd !important;
+    border-bottom-color: #0ddbb9 !important;
+}
