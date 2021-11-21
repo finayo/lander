@@ -64,7 +64,7 @@ app.post('/api/login',async(req,res)=>{
             service: 'gmail',
             auth: {
                 user: 'kamalakantadash@gmail.com',
-                pass: 'Radhamani$1'
+                pass: ''
             }
         });
         let otp = (new Date()).getTime().toString(36);
